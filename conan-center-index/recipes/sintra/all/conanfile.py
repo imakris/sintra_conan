@@ -1,4 +1,4 @@
-from conan import ConanFile
+﻿from conan import ConanFile
 from conan.errors import ConanInvalidConfiguration
 from conan.tools.files import copy, get
 from conan.tools.layout import basic_layout
@@ -7,7 +7,7 @@ import os
 
 class SintraConan(ConanFile):
     name = "sintra"
-    version = "1.0.1"
+    version = "1.0.2"
     license = "BSD-2-Clause"
     homepage = "https://github.com/imakris/sintra"
     url = "https://github.com/conan-io/conan-center-index"
